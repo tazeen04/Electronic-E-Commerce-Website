@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Detail's</title>
+    <!-- fev icons -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- top bar -->
+    <div class="nav-top-bar">
+      <span
+        >20% off to all offer's and all category, make your order's now.</span
+      >
+    </div>
+    <!-- end of top bar -->
+
+    <!-- nav -->
+    <nav class="navigation">
+      <!-- logo -->
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <!-- menu btn -->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <!-- menu -->
+      <ul class="menu">
+        <li><a href="product_page.html">show now</a></li>
+        <li>
+          <a href="hot_products.html">hot product's</a>
+          <span class="nav-label">Hot Offer</span>
+        </li>
+        <li><a href="index.html#popular-product">popular</a></li>
+        <li><a href="mailto:example@mail.com">contact us</a></li>
+      </ul>
+      <!-- end of menu -->
+
+      <!-- nav btns -->
+      <div class="nav-btns">
+        <!-- search -->
+        <input type="checkbox" id="nav-search-btn" />
+        <label for="nav-search-btn" class="nav-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <!-- search container -->
+          <form action="">
+            <!-- close -->
+            <label for="nav-search-btn" class="nav-search-close">
+              <i class="fa-solid fa-x"></i>
+            </label>
+            <!-- box -->
+            <div class="nav-search-box">
+              <input type="text" placeholder="Search Product's" required />
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </form>
+        </label>
+        <!-- user -->
+        <a href="#" class="nav-user">
+          <i class="fa-solid fa-user"></i>
+        </a>
+        <!-- cart -->
+        <a href="#" class="nav-cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>0</span>
+        </a>
+      </div>
+    </nav>
+    <!-- end of NAV -->
+
+    <!-- product details -->
+    <section id="product_details">
+      <!-- img -->
+      <div class="d-product-img">
+        <img src="./images/p1.png" alt="/" />
+      </div>
+      <!-- text -->
+      <div class="d-product-text">
+        <!-- category -->
+        <span class="category">Electronic > Computer Accesories</span>
+        <!-- title -->
+        <strong>Best Web Camera For PC with High Resolution</strong>
+        <!-- rating -->
+        <span class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <span>200 Review's</span>
+        </span>
+        <!-- details -->
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero eos
+          nostrum, eveniet dolorum facilis ipsum qui delectus ex. Rem ducimus
+          itaque velit porro quis qui cum facere harum corrupti quia?
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          vel modi assumenda illum rem.
+        </p>
+        <!-- price -->
+        <span class="price">50$ <del> 60$ </del></span>
+        <!-- quantity -->
+        <div class="quantity">
+          <span>Quantity: </span>
+          <input type="number" value="1" />
+        </div>
+        <!-- btn -->
+        <a href="#">Add To Cart</a>
+      </div>
+    </section>
+    <!-- end of product details -->
+
+    <!-- relative product -->
+    <section id="popular-product" class="relative-products">
+      <!-- headings -->
+      <div class="product-heading">
+        <h3>Relative Product's</h3>
+        <a>All</a>
+      </div>
+      <!-- container -->
+      <div class="popular-product-container">
+        <!-- box 1 -->
+        <div class="product-box">
+          <!-- img -->
+          <a href="#" class="product-img">
+            <img src="images/p1.png" alt="" />
+          </a>
+          <!-- text -->
+          <div class="product-text">
+            <a href="#" class="product-box-p-name"
+              >High Resolution Web Camera</a
+            >
+            <!-- category -->
+            <span class="p-box-category">
+              <a> Electronic </a> >
+              <a>Computer Accesories</a>
+            </span>
+            <!-- details -->
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
+              quisquam ipsum enim fuga vero nulla molestiae aspernatur sunt
+              expedita nihil ex, architecto voluptatem officiis voluptatum in
+              aliquid adipisci doloremque laboriosam?
+            </p>
+            <!-- price -->
+            <span class="p-box-price">$45.55 <del>$60</del></span>
+          </div>
+        </div>
+        <!-- end of box -->
+
+        <!-- box 2 -->
+        <div class="product-box">
+          <!-- img -->
+          <a href="#" class="product-img">
+            <img src="images/p2.png" alt="" />
+          </a>
+          <!-- text -->
+          <div class="product-text">
+            <a href="#" class="product-box-p-name"
+              >High Resolution Web Camera</a
+            >
+            <!-- category -->
+            <span class="p-box-category">
+              <a> Electronic </a> >
+              <a>Computer Accesories</a>
+            </span>
+            <!-- details -->
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
+              quisquam ipsum enim fuga vero nulla molestiae aspernatur sunt
+              expedita nihil ex, architecto voluptatem officiis voluptatum in
+              aliquid adipisci doloremque laboriosam?
+            </p>
+            <!-- price -->
+            <span class="p-box-price">$45.55 <del>$60</del></span>
+          </div>
+        </div>
+        <!-- end of box -->
+
+        <!-- box 3 -->
+        <div class="product-box">
+          <!-- img -->
+          <a href="#" class="product-img">
+            <img src="images/p3.png" alt="" />
+          </a>
+          <!-- text -->
+          <div class="product-text">
+            <a href="#" class="product-box-p-name"
+              >High Resolution Web Camera</a
+            >
+            <!-- category -->
+            <span class="p-box-category">
+              <a> Electronic </a> >
+              <a>Computer Accesories</a>
+            </span>
+            <!-- details -->
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
+              quisquam ipsum enim fuga vero nulla molestiae aspernatur sunt
+              expedita nihil ex, architecto voluptatem officiis voluptatum in
+              aliquid adipisci doloremque laboriosam?
+            </p>
+            <!-- price -->
+            <span class="p-box-price">$45.55 <del>$60</del></span>
+          </div>
+        </div>
+        <!-- end of box -->
+
+        <!-- box 4 -->
+        <div class="product-box">
+          <!-- img -->
+          <a href="#" class="product-img">
+            <img src="images/p4.png" alt="" />
+          </a>
+          <!-- text -->
+          <div class="product-text">
+            <a href="#" class="product-box-p-name"
+              >High Resolution Web Camera</a
+            >
+            <!-- category -->
+            <span class="p-box-category">
+              <a> Electronic </a> >
+              <a>Computer Accesories</a>
+            </span>
+            <!-- details -->
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
+              quisquam ipsum enim fuga vero nulla molestiae aspernatur sunt
+              expedita nihil ex, architecto voluptatem officiis voluptatum in
+              aliquid adipisci doloremque laboriosam?
+            </p>
+            <!-- price -->
+            <span class="p-box-price">$45.55 <del>$60</del></span>
+          </div>
+        </div>
+        <!-- end of box -->
+
+        <!-- box 5 -->
+        <div class="product-box">
+          <!-- img -->
+          <a href="#" class="product-img">
+            <img src="images/p5.png" alt="" />
+          </a>
+          <!-- text -->
+          <div class="product-text">
+            <a href="#" class="product-box-p-name"
+              >High Resolution Web Camera</a
+            >
+            <!-- category -->
+            <span class="p-box-category">
+              <a> Electronic </a> >
+              <a>Computer Accesories</a>
+            </span>
+            <!-- details -->
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
+              quisquam ipsum enim fuga vero nulla molestiae aspernatur sunt
+              expedita nihil ex, architecto voluptatem officiis voluptatum in
+              aliquid adipisci doloremque laboriosam?
+            </p>
+            <!-- price -->
+            <span class="p-box-price">$45.55 <del>$60</del></span>
+          </div>
+        </div>
+        <!-- end of box -->
+      </div>
+    </section>
+    <!-- end of relative product -->
+
+    <!-- footer -->
+    <footer>
+      <!-- payment method -->
+      <div class="footer-payment">
+        <!-- logo -->
+        <div class="footer-payment-logos">
+          <img src="./images/master_card.png" alt="" />
+          <img src="./images/visa.png" alt="" />
+          <img src="./images/paypal.png" alt="" />
+          <img src="./images/ebay.png" alt="" />
+        </div>
+        <!-- text -->
+        <strong>Safe and Secure Payment Method's</strong>
+      </div>
+
+      <!-- container -->
+      <div class="footer-container">
+        <!-- company -->
+        <div class="footer-company-box">
+          <!-- logo -->
+          <a href="#" class="footer-logo">Logo</a>
+          <!-- details -->
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
+            nostrum?
+          </p>
+          <!-- social box -->
+          <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <!-- link box -->
+        <div class="footer-link-box">
+          <strong>Main Link's</strong>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Porfolio</a></li>
+          </ul>
+        </div>
+        <!-- extrenal link link box -->
+        <div class="footer-link-box">
+          <strong>External Link's</strong>
+          <ul>
+            <li><a href="#">Our Product's</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Term's and Condition's</a></li>
+          </ul>
+        </div>
+        <!-- subscribe -->
+        <div class="footer-subscribe">
+          <strong>Subscribe Now</strong>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <div class="subscribe-box">
+            <input type="email" placeholder="example@gmail.com" required />
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <!-- container end -->
+      <div class="footer-bottom">
+        <span class="footer-owner">Made By Ameena</span>
+        <span class="copyright"> &copy; Copyright 2024 </span>
+      </div>
+    </footer>
+  </body>
+</html>
